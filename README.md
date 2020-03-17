@@ -8,11 +8,11 @@ Module used:
 - Something of promise haven't understand.
 
 Solution:
-* Architect
+1/ Architect
 - process version 1 = links => downloadLink( "https://viblo.asia/newest?page=2 ) => request(downlink): Promise => content =>  Promise =>   file(done but something dont understand in promise)
 - process version 2 = links => downloadLink( "https://viblo.asia/newest?page=2 ) => request(downlink): Promise => content => procees()  => Promise => file processWithNodeFetch = solution = pipe(haven't done).
 
-* Technique
+2/ Technique
 - How to take array from json
 - Use rule tranform array to correct format in website (use map)
 - linkDownload -> Promise -> content -> file
